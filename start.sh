@@ -17,7 +17,7 @@ read -p "> " blog_url
 
 # 如果用户没有输入，使用默认值
 if [ -z "$blog_url" ]; then
-    blog_url="https://www.yyyzyyyz.cn/link/"
+    blog_url="https://blogs.g0f.cn/about/"
     echo -e "${BLUE}使用默认URL: ${blog_url}${NC}"
 else
     echo -e "${GREEN}使用URL: ${blog_url}${NC}"
